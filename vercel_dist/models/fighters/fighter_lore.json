@@ -1,7 +1,124 @@
 {
-  "cyber_dance_warrior": "Forged in the glow of midnight megaclubs, Cyber Dance Warrior moves like a glitch in the system\u2014sharp, precise, and always on beat. Neon circuits pulse under synth-steel armor as every step syncs with the bassline. They don\u2019t just dodge attacks; they phase through them, leaving trails of light in the air. When the drop hits, their rhythm turns into a weapon, carving patterns of pure energy across the arena.",
-  "street_dance_brawler": "Raised on cracked concrete and flickering streetlights, Street Dance Brawler fights with the swagger of a block party and the grit of a back-alley showdown. Every punch is a pop, every dodge a lock, every combo a freestyle routine. Scuffed sneakers slide across the floor like turntables scratching vinyl. They don\u2019t care about perfect form\u2014only impact, attitude, and making the crowd roar when the final hit lands.",
-  "electro_samurai": "Electro Samurai is a walking remix of tradition and future\u2014ancient discipline wired into a body of chrome and current. Their stance is calm, almost meditative, but the air around them hums with voltage. Each swing of their invisible blade traces arcs of light, slicing through rhythm and space. They move between beats like a ghost in the waveform, striking in the silence just before the bass returns.",
-  "pop_idol_fighter": "Pop Idol Fighter turns every battle into a live show, every arena into a sold-out stage. Spotlight-ready and glitter-charged, they weave kicks and spins into choreography that could headline a world tour. Their mic is both prop and weapon, swinging in perfect time with the chorus. When the hook hits, their energy spikes, and the crowd erupts as they finish the combo with a pose built for the album cover.",
-  "robot_groove_unit": "Robot Groove Unit was engineered for one purpose: to translate rhythm into raw kinetic force. Servo motors click in sync with the beat, LEDs ripple like equalizers across their chassis. They don\u2019t improvise\u2014they calculate, predicting patterns of movement and responding with perfectly timed strikes. Yet somewhere in the code, a glitch feels suspiciously like soul, and sometimes their foot taps just a little off-grid."
+  "fighters": [
+    {
+      "id": "cyber_dance_warrior",
+      "name": "Cyber Dance Warrior",
+      "styleLabel": "Neon Rhythm Assault",
+      "colorAccent": "#00e5ff",
+      "stats": {
+        "style": 9,
+        "power": 7,
+        "speed": 8,
+        "groove": 10
+      },
+      "tags": [
+        "Neon",
+        "Combo-heavy",
+        "Crowd Control"
+      ],
+      "signatureMoves": [
+        "Neon Spiral Break",
+        "Cyberstep Barrage",
+        "Bassline Overdrive"
+      ],
+      "stageAffinity": "Thrives on neon city rooftops and glitchy cyberspace arenas.",
+      "playstyleTips": "Chain long rhythm-based combos and keep the pressure high."
+    },
+    {
+      "id": "street_dance_brawler",
+      "name": "Street Dance Brawler",
+      "styleLabel": "Concrete Groove Beatdown",
+      "colorAccent": "#ff9800",
+      "stats": {
+        "style": 7,
+        "power": 9,
+        "speed": 7,
+        "groove": 8
+      },
+      "tags": [
+        "Brawler",
+        "Close-range",
+        "Armor"
+      ],
+      "signatureMoves": [
+        "Back Alley Beatdown",
+        "Boom Bap Uppercut",
+        "Sidewalk Slam Shuffle"
+      ],
+      "stageAffinity": "Dominates on street corners and underground battle circles.",
+      "playstyleTips": "Get in close and stay there."
+    },
+    {
+      "id": "electro_samurai",
+      "name": "Electro Samurai",
+      "styleLabel": "Blade Groove Precision",
+      "colorAccent": "#ff4081",
+      "stats": {
+        "style": 8,
+        "power": 8,
+        "speed": 9,
+        "groove": 7
+      },
+      "tags": [
+        "Precision",
+        "Whiff Punish",
+        "Mid-range"
+      ],
+      "signatureMoves": [
+        "Voltage Draw Cut",
+        "Beat-Synced Iaido",
+        "Thunderstep Cross Slash"
+      ],
+      "stageAffinity": "Excels in neon temples and synthwave shrines.",
+      "playstyleTips": "Play patient and reactive."
+    },
+    {
+      "id": "pop_idol_fighter",
+      "name": "Pop Idol Fighter",
+      "styleLabel": "Spotlight Combo Star",
+      "colorAccent": "#ff80ab",
+      "stats": {
+        "style": 10,
+        "power": 6,
+        "speed": 8,
+        "groove": 9
+      },
+      "tags": [
+        "Showtime",
+        "Mixups",
+        "Crowd Buffs"
+      ],
+      "signatureMoves": [
+        "Encore Spin Kick",
+        "Spotlight Step Feint",
+        "Chorus Line Launcher"
+      ],
+      "stageAffinity": "Shines brightest on big stages.",
+      "playstyleTips": "Use feints and mixups."
+    },
+    {
+      "id": "robot_groove_unit",
+      "name": "Robot Groove Unit",
+      "styleLabel": "Mechanical Beat Precision",
+      "colorAccent": "#b2ff59",
+      "stats": {
+        "style": 6,
+        "power": 8,
+        "speed": 6,
+        "groove": 9
+      },
+      "tags": [
+        "Rhythm Perfect",
+        "Zoning",
+        "Setplay"
+      ],
+      "signatureMoves": [
+        "Metronome Missile",
+        "Beat Grid Barrier",
+        "Syncopated Slam"
+      ],
+      "stageAffinity": "Controls industrial arenas.",
+      "playstyleTips": "Control space with precise timing."
+    }
+  ]
 }
