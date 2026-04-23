@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: danceplanet-backend
+    env: node
+    region: frankfurt
+    plan: starter
+    branch: main
+    buildCommand: "npm install"
+    startCommand: "npm run dev"
+    autoDeploy: true
+
+    envVars:
+      - key: DB_HOST
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        value: danceplanet_se
+      - key: JWT_SECRET
+        sync: false
+      - key: PORT
+        value: 10000
